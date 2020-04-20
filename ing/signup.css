@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+    background: lightgreen;
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+    font-weight: 100;
+}
+.signup
+{
+     box-sizing: border-box;
+}
+.signup input
+{
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 25px;
+    width: 75%;
+    background: lightgreen;
+    color: darkgreen;
+}
+
+.signup h1,h4,h3,h2
+{
+    color: darkgreen;
+}
+.signup button
+{
+    border: none;
+    text-align: center;
+    background: darkgreen;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    border: none;
+    font-size: 20px; 
+    height: 75px;  
+}
+
+.registrar:hover {
+    opacity: 1;
+}
