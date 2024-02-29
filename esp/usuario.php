@@ -3,7 +3,7 @@
 $server = "localhost:3306";
 $admin = "root";
 $access = "Cetes2010";
-$db = "tour";
+$db = "panama";
 
 $conn=mysqli_connect("$server","$admin","$access","$db");
 // Check connection
