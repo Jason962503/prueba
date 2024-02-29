@@ -2,7 +2,7 @@
 
 $server = "localhost:3306";
 $admin = "root";
-$access = "Jason2010";
+$access = "Cetes2010";
 $db = "tour";
 
 $conn=mysqli_connect("$server","$admin","$access","$db");
