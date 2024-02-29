@@ -17,11 +17,10 @@ if (mysqli_connect_errno())
     $sql1 = "SELECT correo,contra,nombre,id FROM clientes Where correo='$usuario'";
     $result = mysqli_query($conn,$sql1);
     $reg = mysqli_fetch_row($result);
-    $password = $reg[1];
-    $correo = $reg[0];
-    $nombre = $reg[2];
+    $password = $reg[2];
+    $correo = $reg[10];
+    $nombre = $reg[50];
     $id = $reg[3];
-    $hashCheck = password_verify($clave, $password);
     
     if (($usuario == '') || ($clave == ''))
         echo "<script>alert('Existen campos vacios.'); window.location.href=\"login.php\"</script>";
