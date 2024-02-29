@@ -4,7 +4,7 @@
 $server = "localhost:3306";
 $admin = "root";
 $access = "Jason2010";
-$db = "uto";
+$db = "cetes";
 //Create conection
 $conn=mysqli_connect("$server","$admin","$access","$db");
 // Check connection
