@@ -5,6 +5,9 @@ $admin = "root";
 $access = "Jason2010";
 $db = "tour";
 
+/*
+Conexion a la base de datos
+*/
 $conn=mysqli_connect("$server","$admin","$access","$db");
 // Check connection
 if (mysqli_connect_errno())
