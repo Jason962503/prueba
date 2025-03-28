@@ -4,7 +4,7 @@ $server = "localhost:3306";
 $admin = "root";
 $access = "Jason2010";
 $db = "tour";
-
+// example with Diana and Victor //
 /*
 Conexion a la base de datos
 */
